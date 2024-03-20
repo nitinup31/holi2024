@@ -1,66 +1,67 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>VALENTINE'S DAY</title>
- <link
-      rel="icon"
-      type="image/png"
-      sizes="100%"
-      href="https://cdn-icons-png.flaticon.com/512/9444/9444300.png"
-    />
-<style>
-p {
-text-align: center;
-font-size: 32px;
-font-family: Georgia, serif;
-}
-img {
-display: block;
-margin: 0 auto;
-width: 23%;
-}
-</style>
-</head>
-<body>
- <p>
-    Friendship is the hardest thing in the world to explain. It's not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.;) 
-  Will you be my Valentine?
- </p>
-<img src="https://media.tenor.com/WQjlw86rlpsAAAAC/muah-kiss.gif">
-</body>
-<title>Buttons</title>
-<style>
-#Button1 {
-position: fixed;
-top: 70%;
-left: 55%;
-transform: translate(-50%, -50%);
-}
-#Button2 {
-position: absolute;
- left: 39%;
-  top: 68%;
-}
-</style>
-</head>
-<body>
-<button id="Button1">Yes!</button>
-<button id="Button2">No</button>
-<script>
-const Button2 = document.getElementById('Button2');
-let left = 40;
-Button2.addEventListener('mouseover', function() {
-  if(left == 40){
-    left = 48;
-  }else{
-    left = 40;
-  }
-  this.style.left = left + '%';
-});
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Holi 2024</title>
 
-</script>
-<script>document.getElementById('Button1').addEventListener('click', function() {
-alert('HEHE THANKSSS! I LOVE YOU <3');
-});
-</script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="holi.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+          <a class="navbar-brand text-white" href="#">
+           <div class="log">Happy Holi By Nitin Ver</div>
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   
+      <div class="collapse navbar-collapse" >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="btn btn-light" href="#">Home <span class="sr-only">undefinedcurrent)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+           
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        
+      </div>
+      </div>
+    </nav>
+
+    <div class="myinfo">
+      <h1 class="holi">Hey there!</h1>
+      <h1>i am Nitin</h1>
+          <p>Wishing you and your loved ones a very colourful Holi<br>May you forget all your worries and enjoy this day to the fullest.<br> <h2 class="hue">Happy Holi!</h2></p>
+
+              <a href="#" class="btn btn-danger mr-3 hue">contact</a>
+              <a href="#" class="btn btn-light">Login</a>
+      </div>
+
+      <video autoplay loop play-inline muted  >
+          <source src="Happy Holi 2024 By CWS.mp4">
+              video is not load
+          </video>
+
+  
 </body>
+
 </html>
